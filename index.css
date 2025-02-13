@@ -24,14 +24,14 @@
 }
 
 .u-section-1 .u-container-layout-1 {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .u-section-1 .u-text-1 {
   font-size: 3.75rem;
   --animation-custom_in-scale: 0.3;
-  margin: 32px 0 0;
+  margin: 32px -61px 0 141px;
 }
 
 @media (max-width: 1199px) {
@@ -44,22 +44,27 @@
     padding-top: 0;
     padding-bottom: 29px;
   }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-group-1 {
     width: 720px;
   }
-
-  .u-section-1 .u-container-layout-1 {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-group-1 {
     width: 540px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .u-section-1 .u-text-1 {
