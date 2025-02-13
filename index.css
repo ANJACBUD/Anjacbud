@@ -77,13 +77,13 @@
     font-size: 1.875rem;
     width: auto;
   }
-}.u-section-2 .u-sheet-1 {
+} .u-section-2 {
   min-height: 622px;
 }
 
 .u-section-2 .u-list-1 {
-  width: 443px;
-  margin: 48px auto 0 -100px;
+  width: calc(((100% - 722px) / 2)  + 327px);
+  margin: 100px auto 0 0;
 }
 
 .u-section-2 .u-repeater-1 {
@@ -232,7 +232,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: -439px -101px -40px auto;
+  margin: -403px calc(((100% - 722px) / 2)  + -101px) 48px auto;
 }
 
 .u-section-2 .u-container-layout-6 {
@@ -250,7 +250,12 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-2 .u-list-1 {
+    width: calc(((100% - 721px) / 2) + 327px);
+  }
+
   .u-section-2 .u-group-1 {
+    margin-right: calc(((100% - 721px) / 2) + -101px);
     height: auto;
   }
 }
@@ -312,19 +317,16 @@
     margin-left: 0;
   }
 
+  .u-section-2 .u-group-1 {
+    margin-right: calc(((100% - 720px) / 2)  + -101px);
+  }
+
   .u-section-2 .u-container-layout-6 {
     padding-left: 0;
   }
 }
 
 @media (max-width: 767px) {
-  .u-section-2 .u-list-1 {
-    margin-top: 251px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
-  }
-
   .u-section-2 .u-repeater-1 {
     grid-auto-columns: calc(100% - 0px);
     grid-template-columns: 100%;
@@ -403,13 +405,6 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-2 .u-list-1 {
-    margin-top: 48px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
-  }
-
   .u-section-2 .u-repeater-1 {
     grid-auto-columns: 100%;
     min-height: 805px;
@@ -418,31 +413,31 @@
   .u-section-2 .u-text-1 {
     margin-top: 20px;
     margin-right: auto;
-    margin-left: 0;
+    margin-left: 56px;
   }
 
   .u-section-2 .u-text-2 {
     margin-top: 20px;
     margin-right: auto;
-    margin-left: 0;
+    margin-left: 56px;
   }
 
   .u-section-2 .u-text-3 {
     margin-top: 20px;
     margin-right: auto;
-    margin-left: 0;
+    margin-left: 56px;
   }
 
   .u-section-2 .u-text-4 {
     margin-top: 20px;
     margin-right: auto;
-    margin-left: 0;
+    margin-left: 56px;
   }
 
   .u-section-2 .u-text-5 {
     margin-top: 20px;
     margin-right: auto;
-    margin-left: 0;
+    margin-left: 56px;
   }
 
   .u-section-2 .u-text-7 {
