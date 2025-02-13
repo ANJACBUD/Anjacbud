@@ -537,11 +537,6 @@
 .u-section-4 .u-layout-cell-1 {
   min-height: 589px;
   --radius: 50px;
-  --animation-custom_in-translate_x: -300px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 1;
 }
 
 .u-section-4 .u-container-layout-1 {
@@ -617,6 +612,11 @@
 
   .u-section-4 .u-layout-cell-1 {
     min-height: 533px;
+    --animation-custom_in-translate_x: -300px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
   }
 
   .u-section-4 .u-repeater-1 {
