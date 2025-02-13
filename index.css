@@ -9,30 +9,10 @@
   margin-bottom: 0;
 }
 
-.u-section-1 .u-group-1 {
-  min-height: 64px;
-  height: auto;
-  background-image: none;
-  --top-left-radius: 30px;
-  --top-right-radius: 30px;
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 300px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 1;
-  margin-top: -118px;
-  margin-bottom: 0;
-}
-
-.u-section-1 .u-container-layout-1 {
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
 .u-section-1 .u-text-1 {
   font-size: 3.625rem;
   --animation-custom_in-scale: 0.3;
-  margin: -10px calc(((100% - 722px) / 2)  + -80px) 1px calc(((100% - 722px) / 2));
+  margin: -64px calc(((100% - 722px) / 2)  + -80px) 1px calc(((100% - 722px) / 2));
 }
 
 @media (max-width: 1199px) {
@@ -40,50 +20,32 @@
     inset: auto;
   }
 
-  .u-section-1 .u-group-1 {
-    height: auto;
-  }
-
-  .u-section-1 .u-container-layout-1 {
-    padding-top: 0;
-    padding-bottom: 29px;
-  }
-
   .u-section-1 .u-text-1 {
-    margin-right: calc(((100% - 721px) / 2));
     margin-left: calc(((100% - 721px) / 2));
+    margin-right: calc(((100% - 721px) / 2));
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-container-layout-1 {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
   .u-section-1 .u-text-1 {
-    margin-right: calc(((100% - 501px) / 2));
     margin-left: calc(((100% - 501px) / 2));
+    margin-right: calc(((100% - 501px) / 2));
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-text-1 {
     font-size: 2.25rem;
-    margin-right: calc(((100% - 301px) / 2));
-    margin-left: calc(((100% - 301px) / 2));
+    margin-left: calc(((100% - 400px) / 2)  + 50px);
+    margin-right: calc(((100% - 400px) / 2)  + 50px);
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-container-layout-1 {
-    padding: 20px;
-  }
-
   .u-section-1 .u-text-1 {
     font-size: 1.875rem;
-    margin-right: calc(((100% - 200px) / 2));
-    margin-left: calc(((100% - 200px) / 2));
+    margin-left: calc(((100% - 300px) / 2)  + 50px);
+    margin-right: calc(((100% - 300px) / 2)  + 50px);
   }
 } .u-section-2 {
   min-height: 414px;
