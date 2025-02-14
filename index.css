@@ -654,8 +654,16 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-4 .u-layout-cell-1 {
+    min-height: 471px;
+  }
+
   .u-section-4 .u-container-layout-1 {
     padding: 25px;
+  }
+
+  .u-section-4 .u-repeater-1 {
+    min-height: 392px;
   }
 
   .u-section-4 .u-container-layout-3 {
